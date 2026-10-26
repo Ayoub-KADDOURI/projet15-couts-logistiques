@@ -1,0 +1,82 @@
+﻿{
+    "date":  "2026-10-22T16:26:14.4354848+00:00",
+    "dossier":  "C:\\Users\\Ayoub.kaddouri\\Desktop\\Projet15_Dossier_Final_Demonstration",
+    "controles":  [
+                      {
+                          "controle":  "Windows 64 bits",
+                          "ok":  true,
+                          "detail":  "Windows_NT"
+                      },
+                      {
+                          "controle":  "Windows PowerShell 5.1",
+                          "ok":  true,
+                          "detail":  "5.1.26100.9711"
+                      },
+                      {
+                          "controle":  "Excel de bureau enregistre",
+                          "ok":  true,
+                          "detail":  "Excel Windows avec VBA est necessaire ; Excel en ligne ne convient pas."
+                      },
+                      {
+                          "controle":  "PBIDesktop.exe",
+                          "ok":  true,
+                          "detail":  "C:\\Program Files\\Microsoft Power BI Desktop\\bin\\PBIDesktop.exe"
+                      },
+                      {
+                          "controle":  "Microsoft.PowerBI.AdomdClient.dll",
+                          "ok":  true,
+                          "detail":  "C:\\Program Files\\Microsoft Power BI Desktop\\bin\\Microsoft.PowerBI.AdomdClient.dll"
+                      },
+                      {
+                          "controle":  "Gestion_Logistique.xlsm",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Decisionnel_Logistique.xlsm",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Projet15_Modele_Auto.pbit",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Projet15_Rapport_Auto.pbix",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Ouvrir_Actualise.ps1",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Configurer_Connexions.ps1",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Exports\\Referentiels_PowerBI.xlsx",
+                          "ok":  true,
+                          "detail":  "Fichier du dossier de demonstration."
+                      },
+                      {
+                          "controle":  "Export natif initial",
+                          "ok":  true,
+                          "detail":  "Au moins un fichier de resultats date doit etre present."
+                      },
+                      {
+                          "controle":  "Fichiers transferes reconnus comme locaux",
+                          "ok":  false,
+                          "detail":  "Consulter le guide : Proprietes \u003e Debloquer, pour les seuls fichiers du projet verifies. Gestion_Logistique.xlsm, Decisionnel_Logistique.xlsm"
+                      },
+                      {
+                          "controle":  "Dossier accessible en ecriture",
+                          "ok":  true,
+                          "detail":  "Les exports, les traces et le PBIX doivent pouvoir etre enregistres."
+                      }
+                  ],
+    "statut":  "a_corriger"
+}

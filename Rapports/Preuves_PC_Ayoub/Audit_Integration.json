@@ -1,0 +1,156 @@
+{
+  "resultats_janvier": {
+    "periode": "Janvier 2025",
+    "cout_global_MAD": 2895756.42,
+    "CA_HT_MAD": 24063287.19,
+    "commandes": 540,
+    "cout_sur_CA": 0.12033918712499893,
+    "cout_par_commande_MAD": 5362.511888888889,
+    "budget_MAD": 2714300,
+    "ecart_budget_pct": 0.06685201341045577,
+    "cout_alloue_commandes_MAD": 2005511.0916752818,
+    "cout_km_flotte": 14.907484670219395,
+    "missions_internes": 236,
+    "charges_renseignees": 206,
+    "couverture_charge": 0.8728813559322034,
+    "remplissage_connu": 0.7954611341843638,
+    "stock_sans_zone": 400,
+    "occupation_zones": 0.5258030568331351,
+    "sous_activite_MAD": 264323.10992213653,
+    "alertes": 166
+  },
+  "controles": [
+    {
+      "controle": "Clé unique Calc_Commandes",
+      "ok": true,
+      "detail": 540
+    },
+    {
+      "controle": "Clé unique Calc_Missions",
+      "ok": true,
+      "detail": 291
+    },
+    {
+      "controle": "Clé unique Clients",
+      "ok": true,
+      "detail": 158
+    },
+    {
+      "controle": "Clé unique Produits",
+      "ok": true,
+      "detail": 140
+    },
+    {
+      "controle": "Clé unique Vehicules",
+      "ok": true,
+      "detail": 27
+    },
+    {
+      "controle": "Clé unique Zones_Stockage",
+      "ok": true,
+      "detail": 9
+    },
+    {
+      "controle": "Clé unique Types_Couts",
+      "ok": true,
+      "detail": 74
+    },
+    {
+      "controle": "Relation Calc_Lignes vers Calc_Commandes",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Relation Calc_Commandes vers Clients",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Relation Calc_Lignes vers Produits",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Relation Calc_Stock vers Produits",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Relation Calc_Missions vers Vehicules",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Relation Calc_Zones vers Zones_Stockage",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Relation Calc_Depenses vers Types_Couts",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "controle": "Somme lignes / commandes : Cout_transport",
+      "ok": true,
+      "detail": 0.0
+    },
+    {
+      "controle": "Somme lignes / commandes : Cout_traitement",
+      "ok": true,
+      "detail": 0.0
+    },
+    {
+      "controle": "Somme lignes / commandes : Cout_stockage",
+      "ok": true,
+      "detail": 0.0
+    },
+    {
+      "controle": "Somme lignes / commandes : Cout_total",
+      "ok": true,
+      "detail": 0.0
+    },
+    {
+      "controle": "Contrôle Excel : Conservation",
+      "ok": true,
+      "detail": 4.656612873077393e-10
+    },
+    {
+      "controle": "Contrôle Excel : Transport et livraison",
+      "ok": true,
+      "detail": 1.1641532182693481e-09
+    },
+    {
+      "controle": "Contrôle Excel : Stockage",
+      "ok": true,
+      "detail": -5.820766091346741e-11
+    },
+    {
+      "controle": "Contrôle Excel : Traitement des commandes",
+      "ok": true,
+      "detail": -6.402842700481415e-10
+    },
+    {
+      "controle": "Contrôle Excel : Approvisionnement",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "controle": "Contrôle Excel : Structure",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "controle": "Original inchangé : Decisionnel_Logistique.xlsm",
+      "ok": true,
+      "detail": "065745ae39c04adeb26bff4276763a029a44993188d74461ebbab8c5271eaf52"
+    },
+    {
+      "controle": "Original inchangé : Gestion_Logistique.xlsm",
+      "ok": true,
+      "detail": "ec43e10dbaf0a5ce40410cb88403841d17e635a8f35c61f5320474c881fb6685"
+    }
+  ],
+  "validation_mars": "Non réalisée : export validé absent ; période ouverte dans les fichiers reçus.",
+  "validation_T1": "Non réalisée : exports validés février/mars absents."
+}

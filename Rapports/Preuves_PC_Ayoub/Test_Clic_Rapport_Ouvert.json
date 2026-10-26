@@ -1,0 +1,25 @@
+{
+  "debut": "2026-10-22T16:00:07.0379262+00:00",
+  "statut": "succes",
+  "etape": "Rapport actualisé et enregistré",
+  "export": "Resultats_PowerBI_2026-10-22_1600.xlsx",
+  "erreur": null,
+  "recalcul_natif": false,
+  "valeurs_excel": {
+    "Budget": 2714300,
+    "Global": 2895756.4200000004,
+    "CA": 24063287.19000001,
+    "Commandes": 540
+  },
+  "fenetre_reutilisee": true,
+  "pid_powerbi": 37364,
+  "valeurs_powerbi": {
+    "Global": 2895756.42,
+    "CA": 24063287.189999994,
+    "Fichier": "Resultats_PowerBI_2026-10-22_1600.xlsx",
+    "Commandes": 540,
+    "Budget": 2714300,
+    "Actualise": "/Date(1792684816123)/"
+  },
+  "fin": "2026-10-22T16:00:19.2217657+00:00"
+}

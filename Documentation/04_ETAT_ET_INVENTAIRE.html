@@ -1,0 +1,38 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>État de la livraison et inventaire</title><style>
+body{font-family:Arial,sans-serif;color:#182b42;line-height:1.5;max-width:1000px;margin:38px auto;padding:0 24px;background:#f5f7fa}
+h1{font-size:29px;line-height:1.2;color:#122c46;margin:12px 0 20px}h2{font-size:21px;color:#087b80;margin-top:28px}h3{font-size:17px;margin-top:23px}
+p,li{font-size:15px}li{margin:8px 0}a{color:#006a9a}code{background:#e9eef3;padding:2px 4px;overflow-wrap:anywhere;font-size:13px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}th,td{text-align:left;vertical-align:top;padding:9px;border:1px solid #ccd5df}th{background:#e0eff0}tr{break-inside:avoid}
+.card{background:white;padding:20px;border:1px solid #d9e2e9;border-radius:8px;margin:18px 0}.note{border-left:5px solid #0d8586;padding:12px 17px;background:#e8f4f3}.tag{color:#5c6f80;font-size:13px}.steps>li{margin-bottom:17px}
+@media print{body{margin:0;background:white;padding:0;font-size:11px}h1{font-size:25px}h2{font-size:18px}p,li{font-size:11px}table{font-size:9px}a{color:#174967}h1,h2,h3{break-after:avoid}.card{border:0;padding:0}nav{display:none}}
+</style></head><body><div class="tag">Groupe 9 · Projet 15 · Dossier de démonstration · 22 octobre 2026</div><h1>État de la livraison et inventaire</h1>
+<h2>Ce qui est livré</h2>
+<p>Cette livraison rassemble les dernières versions enregistrées sur disque le 22 octobre 2026 des applications de Tarik et l’intégration Power BI validée sur le PC d’Ayoub. Power BI Desktop utilisé : <b>2.120.963.0</b>. Les empreintes des copies Excel sont identiques à celles des sources au moment de la préparation ; le détail est conservé dans <code>Rapports/Integrite_Copies_Excel.json</code>.</p>
+<table><tr><th>Élément</th><th>Rôle</th></tr>
+<tr><td>Gestion_Logistique.xlsm</td><td>Application transactionnelle finale ; conserver ce nom et la proximité du décisionnel.</td></tr>
+<tr><td>Decisionnel_Logistique.xlsm</td><td>Application de calcul, analyses, simulation et export. La configuration adapte seulement les paramètres de chemin D-01 à D-03 dans cette copie.</td></tr>
+<tr><td>Projet15_Rapport_Auto.pbix</td><td>Rapport avec données enregistrées, sept pages. La copie initiale contient les connexions du PC d’origine : la remplacer par la version recréée localement depuis le PBIT avant la démonstration.</td></tr>
+<tr><td>Projet15_Modele_Auto.pbit</td><td>Modèle transférable avec DossierExports vide. Il reconstruit le même rapport à partir du dossier local choisi.</td></tr>
+<tr><td>1_VERIFIER_PC.cmd / Verifier_PC.ps1</td><td>Vérification des composants, des fichiers et de l’accès en écriture. Ne modifie pas les paramètres de sécurité Windows ou Office.</td></tr>
+<tr><td>2_CONFIGURER_CONNEXIONS.cmd / Configurer_Connexions.ps1</td><td>Crée le raccourci local et règle les trois chemins du décisionnel ouvert. Enregistrer ensuite ce classeur dans Excel.</td></tr>
+<tr><td>Ouvrir_Actualise.ps1</td><td>Export natif, références, ouverture/actualisation native Power BI, vérification des quatre valeurs principales et sauvegarde. Refuse d’utiliser un décisionnel situé dans un autre dossier.</td></tr>
+<tr><td>Exports</td><td>Dernier export natif initial <code>Resultats_PowerBI_2026-10-22_1607.xlsx</code> et références budget/paramètres. Le bouton ajoute de nouveaux exports dans ce dossier.</td></tr>
+<tr><td>Documentation</td><td>Installation, démonstration, tests, dépannage et aperçu PDF. Le sous-dossier Contexte garde le dossier de projet, la passation et la maquette pour référence.</td></tr>
+<tr><td>Rapports/Preuves_PC_Ayoub</td><td>Traces des tests antérieurs réalisés chez Ayoub. Ce ne sont pas des preuves d’installation chez le camarade. Les nouveaux journaux sont créés directement dans Rapports.</td></tr>
+<tr><td>Technique</td><td>Notes de maintenance ; aucun développement ou Python requis pour présenter le travail.</td></tr></table>
+<h2>Périmètre réellement validé</h2>
+<p><b>Janvier 2025 uniquement</b> : 540 commandes, coût global 2 895 756,42 MAD, CA 24 063 287,19 MAD et budget 2 714 300 MAD. Les six contrôles de conservation de l’export initial sont OK. Les contrôles d’intégration ont aussi vérifié les clés, les rapprochements, 17 comparaisons de valeurs/filtrages et l’affichage des sept pages. Le bouton natif a été testé rapport fermé puis rapport déjà ouvert, avec export, actualisation et sauvegarde confirmés.</p>
+<p>Ces tests ont été effectués sur le PC d’Ayoub. Le guide 03 décrit la recette à réaliser sur le nouveau PC. La livraison n’affirme pas que l’installation a déjà été exécutée sur ce PC ni que tous les écrans transactionnels et de simulation ont été testés en profondeur.</p>
+<h2>Écarts entre contexte et fichiers reçus</h2>
+<ul><li>La passation cite mars et un trimestre : aucun export validé de ces périmètres n’a été fourni. Février et mars sont encore ouverts dans les classeurs reçus. Le rapport ne fabrique pas leur historique.</li>
+<li>Les anciens noms de fichiers et d’exports cités dans les documents de contexte ont été remplacés par les noms réels de cette livraison. Pour installer, suivre le guide 01.</li>
+<li>La version finale utilise directement les menus. L’authentification prévue dans le cahier des charges n’est pas active dans ces fichiers.</li></ul>
+<h2>Limites métier à expliquer</h2>
+<ul><li>Coût global de l’entreprise et coûts affectés aux commandes ne couvrent pas le même périmètre ; les intitulés du rapport les distinguent.</li>
+<li>Le remplissage porte sur les missions où la charge est renseignée ; son taux de couverture est visible.</li>
+<li>Les stocks dépourvus de code zone restent analysés par site et régime. Les zones ont leur propre vue d’occupation.</li>
+<li>Les frais d’approche et certains délais/livraisons sont non renseignés : n.d. ne signifie pas zéro.</li>
+<li>La passation indique un contrôle de tarifs limité à la messagerie et une estimation nouveau produit au coût moyen par kilo ; ne pas élargir ces conclusions.</li>
+<li>Les écrans Excel de comparaison, suivi d’alerte et rapports doivent être répétés sur le cas choisi. Power BI utilise les sorties natives disponibles ; il ne reproduit pas tous les formulaires VBA.</li></ul>
+<p><b>Pas de synchronisation distante :</b> ce dossier fonctionne avec des copies locales. Une modification sur le PC de Tarik n’arrive pas automatiquement ici. Recevoir sa nouvelle version, conserver une sauvegarde et refaire les connexions et la recette avant de changer de version.</p>
+</body></html>

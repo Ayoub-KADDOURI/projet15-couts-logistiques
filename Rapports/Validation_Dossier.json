@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22T16:25:57.965812",
+  "dossier": "C:\\Users\\Ayoub.kaddouri\\Desktop\\Projet15_Dossier_Final_Demonstration",
+  "powerbi_version_source": "2.120.963.0",
+  "copies_excel_identiques": true,
+  "originaux_non_modifies": true,
+  "controles_export": 6,
+  "controles_export_tous_OK": true,
+  "export_initial": "Resultats_PowerBI_2026-10-22_1607.xlsx",
+  "modele_sans_chemin_personnel": true,
+  "modele_parametre_DossierExports_vide": true,
+  "pages_rapport": 7,
+  "test_pc_destinataire_effectue": false,
+  "note": "Le test fonctionnel sur le PC destinataire reste à exécuter selon le guide 03.",
+  "modele_transfere_charge_dans_PowerBI": true,
+  "parametre_local_verifie_dans_modele": true,
+  "valeurs_janvier_confirmees_dans_modele_transfere": true,
+  "pbix_recree_et_enregistre_nativement": true,
+  "apercu_pdf_natif_pages": 7,
+  "syntaxe_scripts_PS_erreurs": 0,
+  "garde_chemin_classeur_autre_dossier_verifie": true,
+  "controle_preparation_pc": "Composants détectés ; les XLSM copiés portent une marque Internet. La procédure de vérification/déblocage manuel est décrite dans le guide.",
+  "correctif_controles_juin": {
+    "date": "2026-10-22T23:46:47.8212062+00:00",
+    "validation_native_Excel_respectee": true,
+    "ecart_juin_conserve_MAD": 782.99285012,
+    "comparaison_Excel_PowerBI_au_centime_preservee": true,
+    "actualisation_complete_sur_PC_ACH_testee": false
+  }
+}

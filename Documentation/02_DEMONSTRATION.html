@@ -1,0 +1,54 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Démonstration : de la gestion à Power BI</title><style>
+body{font-family:Arial,sans-serif;color:#182b42;line-height:1.5;max-width:1000px;margin:38px auto;padding:0 24px;background:#f5f7fa}
+h1{font-size:29px;line-height:1.2;color:#122c46;margin:12px 0 20px}h2{font-size:21px;color:#087b80;margin-top:28px}h3{font-size:17px;margin-top:23px}
+p,li{font-size:15px}li{margin:8px 0}a{color:#006a9a}code{background:#e9eef3;padding:2px 4px;overflow-wrap:anywhere;font-size:13px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}th,td{text-align:left;vertical-align:top;padding:9px;border:1px solid #ccd5df}th{background:#e0eff0}tr{break-inside:avoid}
+.card{background:white;padding:20px;border:1px solid #d9e2e9;border-radius:8px;margin:18px 0}.note{border-left:5px solid #0d8586;padding:12px 17px;background:#e8f4f3}.tag{color:#5c6f80;font-size:13px}.steps>li{margin-bottom:17px}
+@media print{body{margin:0;background:white;padding:0;font-size:11px}h1{font-size:25px}h2{font-size:18px}p,li{font-size:11px}table{font-size:9px}a{color:#174967}h1,h2,h3{break-after:avoid}.card{border:0;padding:0}nav{display:none}}
+</style></head><body><div class="tag">Groupe 9 · Projet 15 · Dossier de démonstration · 22 octobre 2026</div><h1>Démonstration : de la gestion à Power BI</h1>
+<div class="note"><b>Parcours conseillé : 15 à 20 minutes.</b> Préparer le PC et réussir les tests du guide 03 avant la présentation. Utiliser janvier 2025, déjà clôturé et calculé. Montrer des opérations existantes pour conserver la concordance du jeu validé.</div>
+<h2>1. Présenter le circuit des données — 1 minute</h2>
+<p>« Notre solution suit les coûts logistiques d’Atlantis Distribution. La gestion enregistre l’activité et contrôle la qualité. Le décisionnel importe les périodes clôturées et calcule les coûts. Power BI présente les résultats avec des filtres et des vues graphiques. »</p>
+<p><b>Gestion Excel → période clôturée → import décisionnel → calcul natif → export daté → Power BI.</b> La simulation s’effectue dans le décisionnel ; elle ne remplace pas les opérations réelles de gestion.</p>
+<h2>2. Montrer l’application transactionnelle — 4 minutes</h2>
+<ol class="steps"><li>Ouvrir <code>Gestion_Logistique.xlsm</code> puis cliquer sur son bouton d’ouverture de l’application. Montrer les quatre groupes du menu : fiches de référence, opérations, paramétrage, contrôles et clôture.</li>
+<li>Cliquer sur <b>Camions</b> et consulter une fiche existante, par exemple <b>VH25</b>. Montrer son identification, ses capacités et son affectation. Revenir au menu, puis consulter un client ou un produit existant. Expliquer que ces codes relient les opérations aux analyses.</li>
+<li>Cliquer sur <b>Rechercher des dépenses</b>. Rechercher une dépense de janvier et montrer sa date, son type de coût, son objet et son montant. Puis ouvrir <b>Commandes clients</b> et <b>Missions de transport</b> pour consulter un enregistrement et ses détails. Revenir au menu après chaque écran.</li>
+<li>Ouvrir <b>Types de coûts</b> ou <b>Paramètres de calcul</b> : expliquer qu’un coût est rattaché à une famille, une étape et une règle. Consulter sans modifier les taux de la période de référence.</li>
+<li>Ouvrir <b>Contrôler les données</b> et montrer le rôle des contrôles. Si vous relancez le contrôle, décrire honnêtement les anomalies affichées ; ne pas annoncer que tous les contrôles transactionnels sont automatiquement satisfaits.</li>
+<li>Ouvrir <b>Clôturer une période</b>. Montrer l’état de janvier, déjà clôturé, et les périodes encore ouvertes. Expliquer : une clôture autorise l’import de la période dans le décisionnel. <b>Ne pas clôturer février ou mars pendant cette présentation.</b> Revenir au menu.</li></ol>
+<p>Pour montrer une saisie, ouvrir le formulaire « Saisir une dépense », expliquer les champs puis annuler. Une création, modification ou suppression enregistrée changerait le jeu de données ; la faire uniquement dans une répétition séparée et restaurer ensuite une nouvelle copie depuis le ZIP.</p>
+<h2>3. Passer au décisionnel et calculer — 3 minutes</h2>
+<ol class="steps"><li>Dans la gestion, cliquer sur <b>Ouvrir l’application décisionnelle</b>. Les deux fichiers doivent être dans le même dossier. L’accueil décisionnel affiche la période importée, le calcul et les principaux indicateurs.</li>
+<li>Cliquer sur <b>Actualiser les données</b>. Montrer la source de gestion locale et sélectionner <b>janvier 2025 uniquement</b>, déjà clôturé. Lancer l’import si la répétition préalable l’a confirmé ; la période affichée doit rester janvier. Ne pas sélectionner les périodes encore ouvertes.</li>
+<li>Cliquer sur <b>Calculer les coûts</b> pour la période importée. Attendre le message de fin, puis montrer le coût global, le taux coût/CA et le coût par commande. L’import et le calcul utilisent les fonctions natives de l’application.</li>
+<li>Ouvrir <b>Synthèse de période</b>, puis <b>Indicateurs de performance</b>. Vérifier le même périmètre de janvier et montrer l’écart par rapport au budget.</li></ol>
+<h2>4. Expliquer l’analyse et la décision — 3 à 5 minutes</h2>
+<table><tr><th>Bouton du décisionnel</th><th>Ce qu’il faut montrer</th></tr>
+<tr><td>Analyse par catégorie</td><td>Une répartition du coût par étape ou famille. Indiquer quelles dépenses expliquent le total.</td></tr>
+<tr><td>Transport et flotte / Stockage</td><td>Le coût d’un camion ou d’une mission ; l’occupation et la sous-activité d’une zone. Conserver les mêmes dates.</td></tr>
+<tr><td>Clients et produits / Coût d’une commande</td><td>Un client ou produit existant et le coût affecté à une commande. Distinguer le coût global de l’entreprise du coût réparti sur les commandes.</td></tr>
+<tr><td>Scénarios</td><td>Ouvrir la simulation et expliquer le cas de référence, les leviers et l’impact attendu. Si un scénario est exécuté, annoncer clairement qu’il est hypothétique et ne constitue pas une dépense réelle. Utiliser un cas répété à l’avance ; ne pas improviser un résultat chiffré.</td></tr>
+<tr><td>Nouveau produit</td><td>Présenter les champs et le principe d’estimation. Préciser que l’estimation du transport utilise un coût moyen au kilo ; les champs clients visés et volume ne sont pas utilisés dans le moteur livré.</td></tr>
+<tr><td>Comparer les fournisseurs / Comparer et décider</td><td>Présenter les écrans si leur cas a été répété sur ce PC. Une valeur n.d. signifie donnée indisponible. Ces fonctions ne sont pas certifiées par les seuls tests Power BI.</td></tr>
+<tr><td>Alertes</td><td>Ouvrir une alerte existante, montrer son objet, sa gravité et son suivi disponible. Le nombre d’alertes métier peut être élevé malgré la conservation correcte des coûts.</td></tr>
+<tr><td>Rapport et exports</td><td>Montrer les commandes d’export natives et le dossier local configuré. Pour la présentation, le bouton Power BI effectue lui-même un nouvel export daté.</td></tr></table>
+<h2>5. Démontrer le bouton Power BI — 1 minute</h2>
+<ol><li>Revenir à l’accueil décisionnel. Cliquer <b>une seule fois</b> sur <b>Ouvrir le rapport Power BI</b>.</li>
+<li>Dire : « Le bouton produit les résultats Excel, ouvre le rapport, l’actualise et vérifie la concordance avant de l’enregistrer. » Attendre la fin sans fermer les applications.</li>
+<li>Dans Power BI, montrer en pied de page le nom de l’export qui vient d’être produit et l’heure d’actualisation. Ouvrir le dossier Exports au besoin : un fichier <code>Resultats_PowerBI_AAAA-MM-JJ_HHmm.xlsx</code> y apparaît.</li>
+<li>Comparer les indicateurs de Synthèse aux chiffres Excel ci-dessous. Ne pas cliquer sur Actualiser pour faire passer la démonstration du bouton.</li></ol>
+<h2>6. Parcourir les sept pages Power BI — 4 minutes</h2>
+<table><tr><th>Page</th><th>Geste et explication</th></tr>
+<tr><td>Synthèse</td><td>Montrer les KPI, la comparaison au budget et la répartition du coût. Le jeu validé couvre un seul mois ; le graphique ne prouve pas une tendance trimestrielle.</td></tr>
+<tr><td>Étapes</td><td>Comparer les étapes de la chaîne logistique et les familles de coûts. Sélectionner un élément puis effacer cette sélection.</td></tr>
+<tr><td>Clients</td><td>Lire le Pareto et identifier les clients qui concentrent les coûts répartis. Un coût attribué aux commandes n’est pas le total global de toutes les dépenses.</td></tr>
+<tr><td>Flotte</td><td>Sélectionner un véhicule et montrer son coût/km. Le remplissage est calculé sur les missions dont la charge est renseignée ; présenter aussi le taux de couverture.</td></tr>
+<tr><td>Stockage</td><td>Filtrer un site, observer l’occupation et le coût de sous-activité. Les données de stock sans code de zone restent analysées au niveau site/régime.</td></tr>
+<tr><td>Produits</td><td>Consulter un produit, son CA et ses coûts affectés. Effacer les filtres avant de comparer les totaux globaux.</td></tr>
+<tr><td>Contrôles</td><td>Montrer les six contrôles de conservation et la cohérence des coûts entre niveaux. Distinguer ces contrôles techniques des alertes métier.</td></tr></table>
+<h2>Chiffres à avoir sous les yeux</h2>
+<table><tr><th>Janvier 2025, sans filtre</th><th>Résultat attendu</th></tr>
+<tr><td>Coût logistique global</td><td>2 895 756,42 MAD</td></tr><tr><td>CA HT</td><td>24 063 287,19 MAD</td></tr><tr><td>Nombre de commandes</td><td>540</td></tr><tr><td>Budget</td><td>2 714 300,00 MAD</td></tr><tr><td>Coût / CA</td><td>12,03 %</td></tr><tr><td>Coût global / commande</td><td>5 362,51 MAD</td></tr><tr><td>Dépassement du budget</td><td>6,69 %</td></tr></table>
+<p>La présentation peut terminer sur une décision appuyée par les résultats observés : identifier une étape coûteuse, un véhicule ou une zone à examiner, puis proposer une simulation. Ne pas annoncer une économie simulée sans avoir exécuté et vérifié le scénario correspondant.</p>
+</body></html>

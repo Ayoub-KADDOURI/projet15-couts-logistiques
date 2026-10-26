@@ -1,0 +1,21 @@
+﻿{
+    "date":  "2026-10-22T16:29:52.9597488+00:00",
+    "pid":  5040,
+    "modele_charge_nativement":  true,
+    "valeurs":  [
+                    {
+                        "[Global]":  2895756.42,
+                        "[CA]":  24063287.189999994,
+                        "[Commandes]":  540,
+                        "[Budget]":  2714300,
+                        "[Source]":  "Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1607.xlsx | Actualisé : 22/10/2026 16:28",
+                        "[Controles]":  "6 / 6 OK"
+                    }
+                ],
+    "parametre":  [
+                      {
+                          "Name":  "DossierExports",
+                          "Expression":  "\"C:\\Users\\Ayoub.kaddouri\\Desktop\\Projet15_Dossier_Final_Demonstration\\Exports\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]"
+                      }
+                  ]
+}

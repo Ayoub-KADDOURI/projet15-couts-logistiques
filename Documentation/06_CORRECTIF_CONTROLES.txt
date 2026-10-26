@@ -1,0 +1,34 @@
+CORRECTION DU LANCEUR POWER BI - CONTROLES NATIFS EXCEL
+
+Cause confirmee : juin 2025, six controles Excel OK, aucune alerte de
+rapprochement ouverte. L ecart de 782,99 MAD (0,0282 % du total, 0,0515 %
+du transport) etait refuse par un seuil supplementaire de 0,01 MAD du lanceur.
+
+APPLICATION SUR LE PC DU CAMARADE
+1. Fermer le message d erreur et attendre la fin du lancement precedent.
+2. Dans le dossier qui contient les deux XLSM et le raccourci Power BI,
+   conserver une copie de l ancien Ouvrir_Actualise.ps1 sous un autre nom.
+3. Extraire le Ouvrir_Actualise.ps1 de cette archive dans ce meme dossier,
+   en remplacant l ancien fichier. Conserver exactement le nom et l extension.
+4. Si Windows marque ce fichier transfere comme bloque : verifier sa
+   provenance puis Proprietes > Debloquer > Appliquer, si cette option existe.
+   Ne pas modifier la politique PowerShell. Si AllSigned est impose, une
+   signature approuvee reste necessaire.
+5. Garder le decisionnel de ce dossier ouvert et cliquer sur
+   Ouvrir le rapport Power BI. Aucun nouveau reglage des chemins n est requis.
+6. Verifier le perimetre, le pied de page et Rapports/Derniere_Actualisation_Auto.json.
+   Le statut final attendu est succes, avec les valeurs Excel et Power BI concordantes.
+
+CHIFFRES DU DIAGNOSTIC RECU - JUIN 2025
+Coût global : 2 773 747,31 MAD ; CA : 18 662 852,86 MAD ; commandes : 463 ;
+budget : 2 741 000 MAD. Ils doivent etre compares au meme perimetre sans filtre.
+
+CE QUI CHANGE
+Le lanceur respecte les statuts natifs de Calc_Controles. Un etat different
+de OK ou une alerte de rapprochement ouverte reste bloquant. Les ecarts
+acceptes par Excel restent visibles dans Power BI et sont traces dans le
+journal. La comparaison des montants Excel/Power BI a 0,01 MAD est conservee.
+Le diagnostic precedent decrit l ancienne regle du lanceur.
+
+Aucun classeur Excel, code VBA, resultat, PBIX ou PBIT n est modifie par
+ce correctif. La fin de l actualisation doit etre verifiee sur le PC ACH.

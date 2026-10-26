@@ -1,0 +1,22 @@
+﻿{
+    "port":  60390,
+    "rapport_reouvert":  true,
+    "filtres":  [
+                    {
+                        "[CAS_Occupation]":  0.55613486686446612,
+                        "[CAS_Stock]":  252258.02181330431,
+                        "[VH25_Cout]":  28338.010697098685,
+                        "[Client_CL0001]":  9904.8469775541344,
+                        "[Produit_P0001]":  27222.575922712684,
+                        "[BudgetFiltre]":  null,
+                        "[Source]":  "Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00"
+                    }
+                ],
+    "pareto_fin":  [
+                       {
+                           "Clients[Code_client]":  "CL0030",
+                           "[Cout]":  374.07955519959683,
+                           "[Cumul]":  1
+                       }
+                   ]
+}

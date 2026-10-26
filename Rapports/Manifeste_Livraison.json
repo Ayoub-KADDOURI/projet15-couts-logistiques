@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-22T16:32:00.850899",
+  "fichiers": [
+    {
+      "fichier": "00_COMMENCER_ICI.html",
+      "octets": 5370,
+      "sha256": "0c522f58cbeec9e2cff8c2daf5bf287829370b2f4e54da0409bde70fc6307f57"
+    },
+    {
+      "fichier": "00_COMMENCER_ICI.pdf",
+      "octets": 159118,
+      "sha256": "3b99c2acf0609a781cb8b6f8efda108a7ac73dab9033b821b7d72be107c674c6"
+    },
+    {
+      "fichier": "1_VERIFIER_PC.cmd",
+      "octets": 128,
+      "sha256": "f9ba47dd66a50b744616142568cf31d82ad10c9759397390e1dd70cd15bbf6c2"
+    },
+    {
+      "fichier": "2_CONFIGURER_CONNEXIONS.cmd",
+      "octets": 138,
+      "sha256": "a3f76df9ae1c61896853cb1c2e3aa8a03f978ae9467e1cd9d2d52b2fdba5a59f"
+    },
+    {
+      "fichier": "Configurer_Connexions.ps1",
+      "octets": 2855,
+      "sha256": "7e5971f27dddef65fa9582b792e99f125684683e0cef244bb5333bdc09193d08"
+    },
+    {
+      "fichier": "Decisionnel_Logistique.xlsm",
+      "octets": 1937280,
+      "sha256": "c26227b8db16e6571a699e4e47b90e600908759164c809b080c0583e2cdd1776"
+    },
+    {
+      "fichier": "Documentation/01_INSTALLATION.html",
+      "octets": 9064,
+      "sha256": "2f41645cde3fa13523f90d3110551011d2354b607369426065279096ca8ee2bd"
+    },
+    {
+      "fichier": "Documentation/01_INSTALLATION.pdf",
+      "octets": 175734,
+      "sha256": "803249db840d7b5728a8724e5b1af8c22f5fc8646595f5656a694555ae8adcd3"
+    },
+    {
+      "fichier": "Documentation/02_DEMONSTRATION.html",
+      "octets": 10345,
+      "sha256": "ab8d1849a2df8ea72df28524b1d5f69ac533d79fda7d69ab14061bd1a0e35d64"
+    },
+    {
+      "fichier": "Documentation/02_DEMONSTRATION.pdf",
+      "octets": 189624,
+      "sha256": "052f61b7001f01c27a45506914de7c9c4fe59f1d5c0dfe9b40c6950ebcbd4840"
+    },
+    {
+      "fichier": "Documentation/03_TESTS_ET_DEPANNAGE.html",
+      "octets": 7919,
+      "sha256": "d9cea4869b23800f9219a1dc934075fca6a0d664003aea01f7e6ee01ea666b81"
+    },
+    {
+      "fichier": "Documentation/03_TESTS_ET_DEPANNAGE.pdf",
+      "octets": 180834,
+      "sha256": "4a16cba87623e28ff32db847ba07848a76e1340b4c21034114674023cbd9edf7"
+    },
+    {
+      "fichier": "Documentation/04_ETAT_ET_INVENTAIRE.html",
+      "octets": 6800,
+      "sha256": "f607af42c8fe5b900633d66f12dc3f7a4c04a778a64272ff7d64661c1a6d1d0c"
+    },
+    {
+      "fichier": "Documentation/04_ETAT_ET_INVENTAIRE.pdf",
+      "octets": 169611,
+      "sha256": "37395d8f67c89ab3a80f6bda1d1b33075be580062e52b852dd1daaf9cc2a1399"
+    },
+    {
+      "fichier": "Documentation/05_PRESENTATION_POWERBI_10_MIN.html",
+      "octets": 16341,
+      "sha256": "4b8505b543661bf4afb238b615aa82a5dc027ee49742f694d42303a6a19c4076"
+    },
+    {
+      "fichier": "Documentation/05_PRESENTATION_POWERBI_10_MIN.pdf",
+      "octets": 167307,
+      "sha256": "c2a5f4de62637eff21adc1ed766b636b904d073110cff159e549e869c661ea6c"
+    },
+    {
+      "fichier": "Documentation/06_CORRECTIF_CONTROLES.txt",
+      "octets": 1988,
+      "sha256": "f15446525920741fdef5a34c377a8e71a92cea86dca9ae0cb0d69bc64e6b5b0f"
+    },
+    {
+      "fichier": "Documentation/Apercu_Rapport_PowerBI.pdf",
+      "octets": 700148,
+      "sha256": "05d486e311b5f9d585a2872e676f346504eb3a87dd6b718746712f8e6930d35c"
+    },
+    {
+      "fichier": "Documentation/Contexte/Contexte_Projet_Groupe9.md",
+      "octets": 198946,
+      "sha256": "0e9a594cf848a657bb58ed8351b6b1572e873f26ab5219665f1ba9ef45a765d8"
+    },
+    {
+      "fichier": "Documentation/Contexte/Maquette_Projet15.pdf",
+      "octets": 3529971,
+      "sha256": "9b718a8cf5b695ea9b0cfb75a5fdd675006654de120337be96053526542bc432"
+    },
+    {
+      "fichier": "Documentation/Contexte/Passation_Tarik.md",
+      "octets": 8301,
+      "sha256": "094cc80c61f8a9c8a4ecf5c4d3162cdf4c37fbf4c490b29a9d3767437da2b0ad"
+    },
+    {
+      "fichier": "Exports/Referentiels_PowerBI.xlsx",
+      "octets": 10892,
+      "sha256": "a09278d103dd0613a2c8d8e0a7150d6c07cf6bfe5d5da0c2c3026752ee9a0a9c"
+    },
+    {
+      "fichier": "Exports/Resultats_PowerBI_2026-10-22_1607.xlsx",
+      "octets": 499261,
+      "sha256": "3e2fdf9759cee555355e3c9c21143ae977f6d96c751aa10ebff410002de8b045"
+    },
+    {
+      "fichier": "Gestion_Logistique.xlsm",
+      "octets": 11159349,
+      "sha256": "904c1a816c58ff281b577c3d9e3600a18db6069c7a7ed986bc7a7eb3f1f6bb84"
+    },
+    {
+      "fichier": "LIRE_MOI.txt",
+      "octets": 786,
+      "sha256": "fdb33f4d04dc76fea2c3c2812782335ee7b48e99fb784489ded80b0f27538a38"
+    },
+    {
+      "fichier": "Ouvrir_Actualise.ps1",
+      "octets": 21686,
+      "sha256": "890b9384e6cfc7e4554aa4c1c3f71e413ff1cd1e15b5d4806045639fe280a86e"
+    },
+    {
+      "fichier": "Projet15_Modele_Auto.pbit",
+      "octets": 66814,
+      "sha256": "18f3e99247da4b4b8dccca85bf50af26203ce451ab50813a1663411a0996fcc9"
+    },
+    {
+      "fichier": "Projet15_Rapport_Auto.pbix",
+      "octets": 580700,
+      "sha256": "65ec2825905bd664fd6beb43b5524a92f9d113bf08c7f66f654a21d19af7ec91"
+    },
+    {
+      "fichier": "Rapports/Integrite_Copies_Excel.json",
+      "octets": 1057,
+      "sha256": "00187c7b0ddf4b5f5efc8fcfdad888eed46b8124bc70d56ad1971a0e72d90553"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Audit_Actualisation_Auto.md",
+      "octets": 1557,
+      "sha256": "2d7ae068c53827f430ff9dd6d32a6a73165b3185ccc0d15e7198d02df3a297f5"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Audit_Integration.json",
+      "octets": 4010,
+      "sha256": "13d183968c3eb57da3f5d5e31bbe37f2aa9c8bbe1d8fcf57a7fd7fd877bb9987"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Concordance_Finale.json",
+      "octets": 2493,
+      "sha256": "ee94b5d2bc25b72043c5f7108329152e348463f41213789e9a65d2cd27d7dcab"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Derniere_Actualisation_Auto.json",
+      "octets": 1028,
+      "sha256": "949cdd1a506ac4eedf6a4238f478c2d9d30357f412772462a51bae60f18ab80a"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Test_Clic_Rapport_Ferme.json",
+      "octets": 704,
+      "sha256": "db0a1ff45750ae44dc05a4482b52b765135bb00311be9ddef20f17e0f60c1efd"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Test_Clic_Rapport_Ouvert.json",
+      "octets": 703,
+      "sha256": "979572caeb330ebedd133219fe26b205d1e78d969fd25e139d4579f963f663d4"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Validation_DAX.json",
+      "octets": 454,
+      "sha256": "787c39a8a1f8b430bf72c2a2978fd0aba5485b5ccdfb8ed1a5923a7732aaaaf8"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Validation_Filtres.json",
+      "octets": 922,
+      "sha256": "94761f0b4bd36c620d5caa3c02375906f8ef240e0222f2e147f1e088d6408167"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Validation_Modele_Transfere.json",
+      "octets": 951,
+      "sha256": "84ad0746a7c0323ad56d4c0a5c69f3e57599a8debda8b62a3387ba0dd49f3661"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Validation_Pages.json",
+      "octets": 2632,
+      "sha256": "297096a12d0c4af805167bb1deca2575a7bc6f8e30b556ba047bfc21f0fef651"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Verification_Correctif_Controles.json",
+      "octets": 541,
+      "sha256": "bd7ff3053618ce94ae56b96659b85ccada544b432ec9642b9c7363d4b3294957"
+    },
+    {
+      "fichier": "Rapports/Preuves_PC_Ayoub/Verification_PC_20261022.json",
+      "octets": 4014,
+      "sha256": "58130b2e8de5a760240af2afabbe2049cfbfdf138c6bdea5e2dc75a455e206a7"
+    },
+    {
+      "fichier": "Rapports/Validation_Dossier.json",
+      "octets": 1436,
+      "sha256": "45bd8de1515a0f55db42656cced69a6eebb6a74e9dc94269ef20fa87883f2004"
+    },
+    {
+      "fichier": "Technique/MAINTENANCE.md",
+      "octets": 2883,
+      "sha256": "0878f6c6097ef2fc21a0383ab4e13989cba957fd815f0fe003b5937e58fd52f9"
+    },
+    {
+      "fichier": "Verifier_PC.ps1",
+      "octets": 3346,
+      "sha256": "af113503c77c2b1f5445752cb747b3ca06642823c4d20fd8117364bd2ba57b04"
+    }
+  ],
+  "note": "Les empreintes décrivent la livraison initiale. La configuration et la démonstration modifient ensuite les copies locales, les exports et les journaux.",
+  "mise_a_jour_documentation": "2026-10-22T21:02:17.737157",
+  "mise_a_jour_correctif_controles": "2026-10-22T23:47:37.336705"
+}

@@ -1,0 +1,38 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Recette sur le nouveau PC et dépannage</title><style>
+body{font-family:Arial,sans-serif;color:#182b42;line-height:1.5;max-width:1000px;margin:38px auto;padding:0 24px;background:#f5f7fa}
+h1{font-size:29px;line-height:1.2;color:#122c46;margin:12px 0 20px}h2{font-size:21px;color:#087b80;margin-top:28px}h3{font-size:17px;margin-top:23px}
+p,li{font-size:15px}li{margin:8px 0}a{color:#006a9a}code{background:#e9eef3;padding:2px 4px;overflow-wrap:anywhere;font-size:13px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}th,td{text-align:left;vertical-align:top;padding:9px;border:1px solid #ccd5df}th{background:#e0eff0}tr{break-inside:avoid}
+.card{background:white;padding:20px;border:1px solid #d9e2e9;border-radius:8px;margin:18px 0}.note{border-left:5px solid #0d8586;padding:12px 17px;background:#e8f4f3}.tag{color:#5c6f80;font-size:13px}.steps>li{margin-bottom:17px}
+@media print{body{margin:0;background:white;padding:0;font-size:11px}h1{font-size:25px}h2{font-size:18px}p,li{font-size:11px}table{font-size:9px}a{color:#174967}h1,h2,h3{break-after:avoid}.card{border:0;padding:0}nav{display:none}}
+</style></head><body><div class="tag">Groupe 9 · Projet 15 · Dossier de démonstration · 22 octobre 2026</div><h1>Recette sur le nouveau PC et dépannage</h1>
+<h2>Répétition obligatoire avant la présentation</h2>
+<table><tr><th>À cocher</th><th>Action</th><th>Résultat attendu</th></tr>
+<tr><td>□</td><td>Lancer 1_VERIFIER_PC.cmd.</td><td>Prérequis détectés ; corriger toute ligne A CORRIGER. Ce résultat seul ne valide pas les macros ou le bouton.</td></tr>
+<tr><td>□</td><td>Ouvrir les deux applications et leurs menus.</td><td>Les UserForms s’affichent sans erreur. Aucune autre copie de même nom n’est ouverte.</td></tr>
+<tr><td>□</td><td>Gestion → ouvrir le décisionnel ; décisionnel → retour à la gestion.</td><td>Les bonnes copies locales sont utilisées dans les deux sens.</td></tr>
+<tr><td>□</td><td>Configurer les connexions, enregistrer puis fermer et rouvrir le décisionnel.</td><td>Les chemins sont conservés. Le raccourci Ouvrir_Rapport_Actualise.lnk existe à la racine.</td></tr>
+<tr><td>□</td><td>Importer uniquement janvier clôturé et recalculer, si ce parcours sera montré.</td><td>Janvier reste le périmètre ; les chiffres ci-dessous concordent. Aucun mois ouvert n’est clôturé pour ce test.</td></tr>
+<tr><td>□</td><td>Fermer Power BI puis cliquer sur Ouvrir le rapport Power BI.</td><td>Nouvel export daté, ouverture, actualisation et sauvegarde du PBIX sans cliquer sur Actualiser.</td></tr>
+<tr><td>□</td><td>Lire Rapports\Derniere_Actualisation_Auto.json après la fin.</td><td>Statut succes ; export du test ; valeurs_excel et valeurs_powerbi concordantes. Cette trace locale est créée par le test, elle est distincte des anciennes preuves du PC d’Ayoub.</td></tr>
+<tr><td>□</td><td>Comparer les KPI Excel et Power BI, sans filtre.</td><td>Global 2 895 756,42 ; CA 24 063 287,19 ; commandes 540 ; budget 2 714 300 ; ratio 12,03 % ; coût/commande 5 362,51 MAD.</td></tr>
+<tr><td>□</td><td>Parcourir les sept pages ; filtrer CAS puis VH25/CL0001/P0001 sur la page appropriée.</td><td>Aucun visuel en erreur ; données cohérentes ; effacer les sélections et filtres pour revenir aux totaux.</td></tr>
+<tr><td>□</td><td>Relancer le bouton une fois le premier traitement terminé, rapport déjà ouvert.</td><td>Le rapport se réactualise ; pas de deuxième fenêtre du même fichier. La date du PBIX est renouvelée et le journal termine en succes.</td></tr>
+<tr><td>□</td><td>Répéter le scénario de soutenance et préparer le PDF de secours.</td><td>Tous les présentateurs connaissent les boutons et les limites. Préparer le projecteur et le dossier avant l’oral.</td></tr></table>
+<h2>Si quelque chose bloque</h2>
+<table><tr><th>Symptôme</th><th>Action concrète</th></tr>
+<tr><td>Macros bloquées / bouton inactif</td><td>Fermer le fichier ; vérifier provenance et Propriétés &gt; Débloquer si disponible ; rouvrir le fichier du projet et autoriser son contenu. Sur un PC administré, demander l’autorisation au responsable. Ne pas baisser globalement la sécurité.</td></tr>
+<tr><td>« L’exécution de scripts est désactivée » ou script interdit</td><td>Le lanceur respecte la politique du PC. Si une marque Internet est la cause, vérifier les Propriétés des PS1 transférés. Une politique Restricted ou AllSigned peut exiger l’intervention du responsable informatique ou un PC où ces scripts sont autorisés. Ne pas employer ExecutionPolicy Bypass.</td></tr>
+<tr><td>Power BI introuvable dans Program Files</td><td>Installer l’édition classique 64 bits depuis Microsoft ; vérifier le chemin donné dans le guide. La seule édition Store n’est pas détectée par cette version du lanceur.</td></tr>
+<tr><td>Le script ne trouve pas le décisionnel</td><td>Ouvrir la copie située dans le même dossier que le script, fermer les menus pendant la configuration et fermer les autres copies de même nom. Garder les deux livres dans la même session Excel et le même compte Windows.</td></tr>
+<tr><td>Ancien chemin Ayoub / source introuvable</td><td>Recréer le PBIX à partir du PBIT avec le vrai DossierExports local, enregistrer au nom et à l’endroit exacts, fermer Power BI puis relancer la configuration Excel et enregistrer.</td></tr>
+<tr><td>Deux fenêtres Power BI / enregistrement verrouillé</td><td>Terminer les modifications nécessaires puis fermer les fenêtres du même rapport. Ne pas ouvrir à la fois le modèle et le rapport pour la démonstration. Relancer le bouton avec une seule copie.</td></tr>
+<tr><td>Actualisation en cours trop longtemps</td><td>Garder le bureau Windows déverrouillé. Regarder les éventuelles demandes de Power BI : premier accueil, confidentialité, erreur de source. Lire et résoudre le message ; consulter le journal pour l’étape exacte, puis relancer après la fin ou l’erreur.</td></tr>
+<tr><td>Fichier export de la minute ouvert dans Excel</td><td>Fermer cet export de résultats avant de relancer le bouton. Les XLSX datés sont des sorties de lecture, pas les applications à garder ouvertes.</td></tr>
+<tr><td>Les totaux diffèrent</td><td>Vérifier janvier, effacer les filtres, comparer le même indicateur. Coût global et coût affecté aux commandes sont distincts. Lire le nom de la source et le journal ; ne pas masquer l’écart en modifiant une mesure ou les données.</td></tr>
+<tr><td>Février/mars refusé ou aucune période importée</td><td>Utiliser janvier clôturé pour cette livraison. Ne pas forcer la clôture ; les mois suivants nécessitent le travail de validation métier et un nouvel import/export.</td></tr>
+<tr><td>n.d. sur un indicateur ou comparaison fournisseur partielle</td><td>Consulter les limites du guide 04 : données manquantes et limites du moteur livré. Ne pas remplacer n.d. par zéro.</td></tr></table>
+<h2>Remettre la démonstration dans son état initial</h2>
+<p>Les clics de démonstration peuvent produire des exports, des traces et des mises à jour d’état. Pour repartir strictement de la livraison, fermer les applications après avoir traité les modifications à conserver, puis extraire le ZIP dans <b>un nouveau dossier</b>. Ne pas écraser un classeur ouvert. Refaire les étapes PBIT et configuration dans ce nouveau dossier. Le code VBA livré reste celui de Tarik.</p>
+<p>Si Power BI est indisponible le jour même, utiliser <code>Documentation\Apercu_Rapport_PowerBI.pdf</code> comme aperçu statique. Il ne démontre pas une actualisation sur ce PC. Les anciens journaux contenus dans Preuves_PC_Ayoub prouvent seulement les essais effectués chez Ayoub.</p>
+</body></html>

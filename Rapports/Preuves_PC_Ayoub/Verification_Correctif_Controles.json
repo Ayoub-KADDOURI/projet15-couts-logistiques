@@ -1,0 +1,13 @@
+﻿{
+    "date":  "2026-10-22T23:46:47.8212062+00:00",
+    "syntaxe_PS_OK":  true,
+    "juin_six_controles_OK_acceptes":  true,
+    "ecart_juin_conserve_MAD":  782.99285012,
+    "janvier_six_controles_OK_acceptes":  true,
+    "statut_Excel_en_ecart_reste_bloquant":  true,
+    "controles_absents_restent_bloquants":  true,
+    "controle_alertes_rapprochement_present":  true,
+    "comparaison_Excel_PowerBI_au_centime_preservee":  true,
+    "classeurs_modifies":  false,
+    "actualisation_complete_sur_PC_ACH_testee":  false
+}

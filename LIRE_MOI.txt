@@ -1,0 +1,15 @@
+PROJET 15 - DOSSIER FINAL DE DEMONSTRATION
+
+Ouvrir 00_COMMENCER_ICI.html (ou le PDF du meme nom).
+
+Transferer puis extraire tout le ZIP dans un dossier local.
+1. Lire Documentation/01_INSTALLATION.pdf et lancer 1_VERIFIER_PC.cmd.
+2. Ouvrir les deux Excel, fermer leurs menus pendant la configuration.
+3. Ouvrir le PBIT, renseigner le chemin local du dossier Exports,
+   enregistrer a la racine sous Projet15_Rapport_Auto.pbix puis fermer Power BI.
+4. Lancer 2_CONFIGURER_CONNEXIONS.cmd et enregistrer le decisionnel.
+5. Tester le bouton Ouvrir le rapport Power BI et les chiffres de janvier.
+
+Guides de demonstration et depannage dans Documentation.
+Ne pas renommer ou separer les deux fichiers XLSM.
+Le PC de Tarik ne se synchronise pas automatiquement avec ces copies.

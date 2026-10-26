@@ -1,0 +1,29 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Préparer le PC de démonstration</title><style>
+body{font-family:Arial,sans-serif;color:#182b42;line-height:1.5;max-width:1000px;margin:38px auto;padding:0 24px;background:#f5f7fa}
+h1{font-size:29px;line-height:1.2;color:#122c46;margin:12px 0 20px}h2{font-size:21px;color:#087b80;margin-top:28px}h3{font-size:17px;margin-top:23px}
+p,li{font-size:15px}li{margin:8px 0}a{color:#006a9a}code{background:#e9eef3;padding:2px 4px;overflow-wrap:anywhere;font-size:13px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}th,td{text-align:left;vertical-align:top;padding:9px;border:1px solid #ccd5df}th{background:#e0eff0}tr{break-inside:avoid}
+.card{background:white;padding:20px;border:1px solid #d9e2e9;border-radius:8px;margin:18px 0}.note{border-left:5px solid #0d8586;padding:12px 17px;background:#e8f4f3}.tag{color:#5c6f80;font-size:13px}.steps>li{margin-bottom:17px}
+@media print{body{margin:0;background:white;padding:0;font-size:11px}h1{font-size:25px}h2{font-size:18px}p,li{font-size:11px}table{font-size:9px}a{color:#174967}h1,h2,h3{break-after:avoid}.card{border:0;padding:0}nav{display:none}}
+</style></head><body><div class="tag">Groupe 9 · Projet 15 · Dossier de démonstration · 22 octobre 2026</div><h1>Préparer le PC de démonstration</h1>
+<div class="note"><b>Transférer le dossier entier.</b> Il contient les deux applications finales, le rapport Power BI, son modèle de configuration, les exports initiaux et tous les guides. Les copies Excel sont identiques aux fichiers reçus ; les chemins seront adaptés sur le PC de votre camarade.</div>
+<h2>L’ordre à suivre</h2>
+<ol class="steps">
+<li><b>Extraire le ZIP</b> dans un dossier local modifiable, par exemple <code>Documents\Projet15_Demo</code>. Garder tous les fichiers ensemble. Ne pas travailler directement dans le ZIP ou sur une clé USB.</li>
+<li>Ouvrir <a href="Documentation/01_INSTALLATION.html">01_INSTALLATION.html</a> et installer les prérequis : <b>Windows 64 bits, Excel de bureau avec VBA et Power BI Desktop 64 bits</b>. Le lanceur fourni attend l’installation classique de Power BI dans <code>C:\Program Files\Microsoft Power BI Desktop\bin</code>.</li>
+<li>Lancer <code>1_VERIFIER_PC.cmd</code>, puis ouvrir les deux classeurs Excel du dossier et autoriser leur contenu seulement après vérification de leur provenance. Fermer les menus des applications pour revenir aux feuilles de lancement pendant la configuration.</li>
+<li><b>Créer le rapport pour ce PC :</b> ouvrir <code>Projet15_Modele_Auto.pbit</code>, renseigner <code>DossierExports</code> avec le chemin complet du sous-dossier <code>Exports</code>, puis enregistrer sous <code>Projet15_Rapport_Auto.pbix</code> à la racine du dossier, en remplaçant la copie fournie. Fermer Power BI après cet enregistrement.</li>
+<li>Lancer <code>2_CONFIGURER_CONNEXIONS.cmd</code>. Revenir dans Excel et <b>enregistrer le décisionnel avec Ctrl+S</b>. Cette étape règle les trois chemins et crée le raccourci local appelé par le bouton.</li>
+<li>Rouvrir le menu du décisionnel et cliquer sur <b>« Ouvrir le rapport Power BI »</b>. Attendre la fin : le bouton exporte les résultats, actualise Power BI, vérifie les chiffres et enregistre le PBIX. Le pied de page indique le fichier réellement chargé.</li>
+</ol>
+<h2>Les guides prêts à utiliser</h2>
+<table><tr><th>Document</th><th>Utilité</th></tr>
+<tr><td><a href="Documentation/01_INSTALLATION.html">Installation détaillée</a> · <a href="Documentation/01_INSTALLATION.pdf">PDF</a></td><td>Préparer le PC et adapter les connexions une seule fois.</td></tr>
+<tr><td><a href="Documentation/02_DEMONSTRATION.html">Démonstration complète</a> · <a href="Documentation/02_DEMONSTRATION.pdf">PDF</a></td><td>Parcours conseillé dans la gestion, le décisionnel et les sept pages Power BI.</td></tr>
+<tr><td><a href="Documentation/03_TESTS_ET_DEPANNAGE.html">Tests et dépannage</a> · <a href="Documentation/03_TESTS_ET_DEPANNAGE.pdf">PDF</a></td><td>Répétition, chiffres attendus, problèmes courants et remise à zéro.</td></tr>
+<tr><td><a href="Documentation/04_ETAT_ET_INVENTAIRE.html">État du livrable</a> · <a href="Documentation/04_ETAT_ET_INVENTAIRE.pdf">PDF</a></td><td>Périmètre validé, limites et rôle de chaque fichier.</td></tr></table>
+<h2>Le contrôle rapide</h2>
+<p>Sur <b>janvier 2025</b>, sans filtre : <b>2 895 756,42 MAD</b> de coût global, <b>24 063 287,19 MAD</b> de CA, <b>540 commandes</b> et <b>2 714 300 MAD</b> de budget. Le coût/CA est de <b>12,03 %</b> et le coût moyen par commande de <b>5 362,51 MAD</b>.</p>
+<p>Janvier est clôturé dans les fichiers reçus ; février et mars restent ouverts. Ne pas présenter les chiffres de mars ou du trimestre mentionnés dans la passation comme validés par ce rapport.</p>
+<p>Après tout déplacement du dossier, refaire la création du rapport à partir du PBIT et la configuration des connexions. La copie locale ne se synchronise pas avec le PC de Tarik.</p>
+<p><b>Présentation Power BI :</b> <a href="Documentation/05_PRESENTATION_POWERBI_10_MIN.html">discours et gestes sur 10 minutes</a> · <a href="Documentation/05_PRESENTATION_POWERBI_10_MIN.pdf">fiche PDF</a>.</p></body></html>

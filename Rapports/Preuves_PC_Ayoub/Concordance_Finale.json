@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "controle": "Global",
+      "source": 2895756.42,
+      "powerbi": 2895756.42,
+      "ok": true
+    },
+    {
+      "controle": "CA",
+      "source": 24063287.19,
+      "powerbi": 24063287.189999994,
+      "ok": true
+    },
+    {
+      "controle": "Commandes",
+      "source": 540,
+      "powerbi": 540,
+      "ok": true
+    },
+    {
+      "controle": "Ratio",
+      "source": 0.12033918712499893,
+      "powerbi": 0.12033918712499897,
+      "ok": true
+    },
+    {
+      "controle": "ParCommande",
+      "source": 5362.511888888889,
+      "powerbi": 5362.511888888889,
+      "ok": true
+    },
+    {
+      "controle": "Budget",
+      "source": 2714300,
+      "powerbi": 2714300,
+      "ok": true
+    },
+    {
+      "controle": "CoutKm",
+      "source": 14.907484670219395,
+      "powerbi": 14.907484670219395,
+      "ok": true
+    },
+    {
+      "controle": "Couverture",
+      "source": 0.8728813559322034,
+      "powerbi": 0.8728813559322034,
+      "ok": true
+    },
+    {
+      "controle": "Remplissage",
+      "source": 0.7954611341843638,
+      "powerbi": 0.7954611341843638,
+      "ok": true
+    },
+    {
+      "controle": "Occupation",
+      "source": 0.5258030568331351,
+      "powerbi": 0.5258030568331351,
+      "ok": true
+    },
+    {
+      "controle": "Filtre site : occupation",
+      "source": 0.5561348668644661,
+      "powerbi": 0.5561348668644661,
+      "ok": true
+    },
+    {
+      "controle": "Filtre site : stock",
+      "source": 252258.02181330437,
+      "powerbi": 252258.0218133043,
+      "ok": true
+    },
+    {
+      "controle": "Filtre véhicule",
+      "source": 28338.010697098685,
+      "powerbi": 28338.010697098685,
+      "ok": true
+    },
+    {
+      "controle": "Filtre client",
+      "source": 9904.846977554134,
+      "powerbi": 9904.846977554134,
+      "ok": true
+    },
+    {
+      "controle": "Filtre produit",
+      "source": 27222.575922712676,
+      "powerbi": 27222.575922712684,
+      "ok": true
+    },
+    {
+      "controle": "Budget masqué pour une famille de coûts",
+      "source": null,
+      "powerbi": null,
+      "ok": true
+    },
+    {
+      "controle": "Fin du Pareto : 100 %",
+      "source": 1,
+      "powerbi": 1,
+      "ok": true
+    }
+  ],
+  "source_rapport": "Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00",
+  "reouverture_pbix": true
+}

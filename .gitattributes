@@ -1,0 +1,10 @@
+# Conserver les octets des fichiers livrés et leurs empreintes.
+* -text
+
+# Formats binaires du projet.
+*.xlsm binary
+*.xlsx binary
+*.pbix binary
+*.pbit binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,13 @@
+# Fichiers temporaires Office et Windows
+~$*
+*.tmp
+*.bak
+*.lnk
+Thumbs.db
+desktop.ini
+
+# Outils locaux de développement
+.venv/
+__pycache__/
+.tools/
+.DS_Store

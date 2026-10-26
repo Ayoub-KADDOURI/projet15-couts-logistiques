@@ -1,0 +1,76 @@
+[
+  {
+    "page": "Synthèse",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Cout global 2 895 756,42 MAD.",
+      "Cout sur CA 12,0%.",
+      "Cout par commande 5 362,51 MAD.",
+      "Ecart budget % 6,7%.",
+      "Note synthese Coût global du grand livre ; CA et commandes de la même période. Références copiées depuis le décisionnel ouvert..",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  },
+  {
+    "page": "Étapes",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Cout global 2 895 756,42 MAD.",
+      "Nb commandes 540.",
+      "CA HT 24 063 287,19 MAD.",
+      "Statut controles 6 / 6 OK.",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  },
+  {
+    "page": "Clients",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Cout commandes 2 005 511,09 MAD.",
+      "CA apres logistique 22 057 776,10 MAD.",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  },
+  {
+    "page": "Flotte",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Cout flotte 1 076 991,23 MAD.",
+      "Cout km flotte 14,91 MAD/km.",
+      "Remplissage renseigne 79,5%.",
+      "Note flotte Remplissage sur 206 / 236 missions internes renseignées (87,3%). Les charges absentes sont exclues..",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  },
+  {
+    "page": "Stockage",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Cout stockage detail 584 879,95 MAD.",
+      "Occupation zones 52,6%.",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  },
+  {
+    "page": "Produits",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Cout lignes 2 005 511,09 MAD.",
+      "Colis livres 97 729.",
+      "Cout colis 20,52 MAD/colis.",
+      "Nb lignes 3 647.",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  },
+  {
+    "page": "Contrôles",
+    "erreurs": [],
+    "valeurs_lues": [
+      "Statut controles 6 / 6 OK.",
+      "Ecart GL 0,00 MAD.",
+      "Ecart lignes commandes 0,00 MAD.",
+      "Nb alertes 166.",
+      "Source info Données : janvier 2025 | Source : Resultats_PowerBI_2026-10-22_1600.xlsx | Actualisé : 22/10/2026 16:00."
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22T16:25:57.816183",
+  "fichiers": [
+    {
+      "fichier": "Gestion_Logistique.xlsm",
+      "source": "C:\\Users\\Ayoub.kaddouri\\Desktop\\Application_VBA_Decisionnel_MAJ_22-10-2026\\Application_VBA\\Gestion_Logistique.xlsm",
+      "sha256": "904c1a816c58ff281b577c3d9e3600a18db6069c7a7ed986bc7a7eb3f1f6bb84",
+      "vbaProject_sha256": "38ae8a9c8e55877a60f7d5c2a0c1bcd59b01afa06133e4184d1c0196f399bed3",
+      "octets": 11159349,
+      "date_source": "2026-10-22T16:06:03.767085",
+      "copie_identique": true
+    },
+    {
+      "fichier": "Decisionnel_Logistique.xlsm",
+      "source": "C:\\Users\\Ayoub.kaddouri\\Desktop\\Application_VBA_Decisionnel_MAJ_22-10-2026\\Application_VBA\\Decisionnel_Logistique.xlsm",
+      "sha256": "c26227b8db16e6571a699e4e47b90e600908759164c809b080c0583e2cdd1776",
+      "vbaProject_sha256": "f69f8b98decd2f7562bbad6ddd8cba9823595015f3307bc1af8f4489315fa77d",
+      "octets": 1937280,
+      "date_source": "2026-10-22T16:06:11.375885",
+      "copie_identique": true
+    }
+  ]
+}
